@@ -21,9 +21,11 @@
 
 .card-img {
   width: 200px;
-  height: auto;
+  height: 200px;
   border-radius: 50%;
   padding: 10px;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #d9dbdf;
   /* background-color: #6c63ff; */
   /* background: transparent; */

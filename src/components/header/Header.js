@@ -25,11 +25,11 @@ class Header extends Component {
         <div>
           <header className="header">
             <NavLink to={link} tag={Link} className="logo">
-              <span style={{ color: theme.text }}> &lt;</span>
-              <span className="logo-name" style={{ color: theme.text }}>
+              {/* <span style={{ color: theme.text }}> &lt;</span> */}
+              {/* <span className="logo-name" style={{ color: theme.text }}>
                 {greeting.logo_name}
-              </span>
-              <span style={{ color: theme.text }}>/&gt;</span>
+              </span> */}
+              {/* <span style={{ color: theme.text }}>/&gt;</span> */}
             </NavLink>
             <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" htmlFor="menu-btn">
@@ -84,7 +84,7 @@ class Header extends Component {
                   Projects
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink
                   to="/opensource"
                   tag={Link}
@@ -95,8 +95,8 @@ class Header extends Component {
                 >
                   Open Source
                 </NavLink>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <NavLink
                   to="/contact"
                   tag={Link}
@@ -105,9 +105,9 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Contact Me
+                  Contact
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
           </header>
         </div>

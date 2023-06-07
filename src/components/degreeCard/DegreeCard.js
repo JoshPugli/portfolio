@@ -6,6 +6,7 @@ class DegreeCard extends Component {
   render() {
     const degree = this.props.degree;
     const theme = this.props.theme;
+    const color = this.props.color;
     return (
       <div className="degree-card">
         {degree.logo_path && (
@@ -28,15 +29,12 @@ class DegreeCard extends Component {
             className="card-body"
             style={{ width: degree.logo_path ? "90%" : "100%" }}
           >
-            <div
-              className="body-header"
-              style={{ backgroundColor: theme.headerColor }}
-            >
+            <div className="body-header" style={{ backgroundColor: color }}>
               <div className="body-header-title">
-                <h2 className="card-title" style={{ color: theme.text }}>
+                <h2 className="card-title" style={{ color: "#fff" }}>
                   {degree.title}
                 </h2>
-                <h3 className="card-subtitle" style={{ color: theme.text }}>
+                <h3 className="card-subtitle" style={{ color: "lightgrey" }}>
                   {degree.subtitle}
                 </h3>
               </div>
@@ -60,10 +58,7 @@ class DegreeCard extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div
-                    className="visit-btn"
-                    style={{ backgroundColor: theme.headerColor }}
-                  >
+                  <div className="visit-btn" style={{ backgroundColor: color }}>
                     <p className="btn" style={{ color: theme.text }}>
                       Visit Website
                     </p>

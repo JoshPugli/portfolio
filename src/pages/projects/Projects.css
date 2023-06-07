@@ -75,6 +75,15 @@
   margin-top: 60px;
 }
 
+.bottom-words {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #808080;
+}
+
 @media (max-width: 1380px) {
   .projects-heading-text {
     font-size: 50px;

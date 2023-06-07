@@ -32,16 +32,18 @@ class Education extends Component {
                   Education
                 </h1>
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  Basic Qualification and Certifcations
+                  School and Certification
                 </h3>
-                <CompetitiveSites logos={competitiveSites.competitiveSites} />
+                <h3 style={{ color: "darkgrey", marginTop: "50px" }}>
+                  I'm a computer science and math student at the University of
+                  Toronto.
+                </h3>
               </div>
             </div>
           </Fade>
           <Educations theme={this.props.theme} />
-          {certifications.certifications.length > 0 ? (
-            <Certifications theme={this.props.theme} />
-          ) : null}
+
+          <Certifications theme={this.props.theme} />
         </div>
         <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />
