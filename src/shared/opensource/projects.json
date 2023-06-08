@@ -2,7 +2,6 @@
   "data": [
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "type": "education",
       "wip": true,
       "name": "Academic Aptitude Evaluator",
       "createdAt": "March 2023",
@@ -95,7 +94,6 @@
       "id": "R_kgDOG_vYHA",
       "name": "Brawlr",
       "wip": true,
-      "type": "experience",
       "createdAt": "December 2021",
       "description": "Full stack mobile Android application to connect martial artists with sparring partners.",
       "isFork": false,
