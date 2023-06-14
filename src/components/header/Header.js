@@ -4,7 +4,7 @@ import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
-// import { lightDarkToggle} from "../lightDarkToggle/LightDarkToggle"
+import TransitionIcon from "../brightnessToggle/BrightnessToggle";
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
@@ -85,7 +85,9 @@ class Header extends Component {
                   Projects
                 </NavLink>
               </li>
-              <li></li>
+              {/* <li style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', transform: 'translateY(50%)' }}>
+                <TransitionIcon />
+              </li> */}
               {/* <li>
                 <NavLink
                   to="/opensource"

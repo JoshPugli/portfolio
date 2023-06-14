@@ -1,3 +1,8 @@
+import { UniqueDirectivesPerLocation } from "graphql/validation/rules/UniqueDirectivesPerLocation";
+import { unknownFieldMessage } from "graphql/validation/rules/ValuesOfCorrectType";
+import { ToastHeader } from "react-bootstrap";
+import { FaDrumstickBite, FaJava } from "react-icons/fa";
+
 // theme.js
 export const blueTheme = {
   body: "#EDF9FE",
@@ -195,4 +200,4 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-export const chosenTheme = orangeTheme;
+export const chosenTheme = blueTheme;
