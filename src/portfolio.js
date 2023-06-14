@@ -617,7 +617,7 @@ const certifications = {
       logo_path: "aws.png",
       certificate_link:
         "https://aws.amazon.com/certification/certified-developer-associate/",
-      alt_name: "Stanford University",
+      alt_name: "AWS",
       color_code: "#fff",
     },
   ],
