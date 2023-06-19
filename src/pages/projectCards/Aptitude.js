@@ -1,17 +1,11 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import OpensourceCharts from "../../containers/opensourceCharts/OpensourceCharts";
-import Organizations from "../../containers/organizations/Organizations";
-import PullRequests from "../../containers/pullRequests/PullRequests";
-import Issues from "../../containers/issues/Issues";
 import TopButton from "../../components/topButton/TopButton";
 import "./General.css";
 import itemGraph from "../../assests/images/added_feature_item.png";
 import userGraph from "../../assests/images/added_feature_user.png";
 import irtLatex from "../../assests/images/irt_lat.png";
-import valItem from "../../assests/images/1a_val_item.png";
-import valUser from "../../assests/images/1a_val_user.png";
 import trainCost from "../../assests/images/train_cost.png";
 import validAcc from "../../assests/images/valid_acc.png";
 import irtLLK from "../../assests/images/irt_llk.png";
