@@ -17,7 +17,7 @@ import validAcc from "../../assests/images/valid_acc.png";
 import irtLLK from "../../assests/images/irt_llk.png";
 import irtBetaq from "../../assests/images/irt_betaq.png";
 
-class Opensource extends Component {
+class Aptitude extends Component {
   render() {
     return (
       <div className="opensource-main">
@@ -159,4 +159,4 @@ class Opensource extends Component {
   }
 }
 
-export default Opensource;
+export default Aptitude;

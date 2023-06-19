@@ -7,6 +7,7 @@ import { Education } from "../../pages/education/EducationComponent";
 import { Experience } from "../../pages/experience/Experience";
 import { Opensource } from "../../pages/opensource/Opensource";
 import { Aptitude } from "../../pages/projectCards/Aptitude";
+import { IncOne } from "../../pages/projectCards/IncOne";
 import { useHistory } from "react-router-dom";
 
 export default function GithubRepoCard({ repo, theme }) {
@@ -19,6 +20,8 @@ export default function GithubRepoCard({ repo, theme }) {
       history.push("/experience");
     } else if (repo.type === "academic") {
       history.push("/aptitude");
+    } else if (repo.type === "incone") {
+      history.push("/incone");
     }
   }
 
