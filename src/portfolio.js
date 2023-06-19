@@ -89,7 +89,7 @@ const skillsLeft = {
           },
         },
         {
-          skillName: "Python",
+          skillName: "Pandas",
           fontAwesomeClassname: "devicon:pandas-wordmark",
           style: {
             backgroundColor: "transparent",
@@ -137,11 +137,11 @@ const skillsLeft = {
           },
         },
         {
-          skillName: "JavaScript",
+          skillName: "Django",
           fontAwesomeClassname: "vscode-icons:file-type-django",
         },
         {
-          skillName: "JavaScript",
+          skillName: "Django Rest Framework",
           fontAwesomeClassname: "devicon:djangorest",
         },
         {
@@ -225,7 +225,7 @@ const skillsLeft = {
       ],
       softwareSkills: [
         {
-          skillName: "AWS",
+          skillName: "C",
           fontAwesomeClassname: "devicon:c",
           style: {
             color: "#FF9900",
@@ -233,249 +233,28 @@ const skillsLeft = {
         },
 
         {
-          skillName: "Firebase",
+          skillName: "Linux",
           fontAwesomeClassname: "devicon:linux",
           style: {
             color: "#FFCA28",
           },
         },
         {
-          skillName: "PostgreSQL",
+          skillName: "Windows",
           fontAwesomeClassname: "ri:windows-fill",
           style: {
             color: "#336791",
           },
         },
         {
-          skillName: "PostgreSQL",
+          skillName: "git",
           fontAwesomeClassname: "la:git",
           style: {
             color: "",
           },
         },
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "grommet-icons:cli",
-          style: {
-            color: "#",
-          },
-        },
-      ],
-    },
-    // {
-    //   title: "UI/UX Design",
-    //   fileName: "DesignImg",
-    //   skills: [
-    //     "• Designing highly attractive user interface for mobile and web applications",
-    //     "• Customizing logo designs and building logos from scratch",
-    //     "• Creating the flow of application functionalities to optimize user experience",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "Adobe XD",
-    //       fontAwesomeClassname: "simple-icons:adobexd",
-    //       style: {
-    //         color: "#FF2BC2",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Figma",
-    //       fontAwesomeClassname: "simple-icons:figma",
-    //       style: {
-    //         color: "#F24E1E",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Adobe Illustrator",
-    //       fontAwesomeClassname: "simple-icons:adobeillustrator",
-    //       style: {
-    //         color: "#FF7C00",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Inkscape",
-    //       fontAwesomeClassname: "simple-icons:inkscape",
-    //       style: {
-    //         color: "#000000",
-    //       },
-    //     },
-    //   ],
-    // },
-  ],
-};
-
-const skillsRight = {
-  data: [
-    {
-      title: "AI & Data Science",
-      fileName: "DataScienceImg",
-      skills: [
-        "• Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "• Experience of working with Computer Vision and NLP projects",
-        "• Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "devicon:pandas-wordmark",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-      ],
-    },
-    {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
-      skills: [
-        "• Building responsive website front end using React-Redux",
-        "• Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "• Creating application backend in Node, Express & Flask",
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "• Experience working on multiple cloud platforms",
-        "• Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "• Deploying deep learning models on cloud to use on mobile devices",
-        "• Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
-      softwareSkills: [
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-      ],
-    },
-    {
-      title: "OS, Systems Programming & Software Tools",
-      fileName: "CloudInfraImg",
-      skills: [
-        "• Experience working on multiple cloud platforms",
-        "• Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "• Deploying deep learning models on cloud to use on mobile devices",
-        "• Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
-      softwareSkills: [
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "devicon:c",
-          style: {
-            color: "#FF9900",
-          },
-        },
-
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "devicon:linux",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "ri:windows-fill",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "la:git",
-          style: {
-            color: "",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
+          skillName: "CLI",
           fontAwesomeClassname: "grommet-icons:cli",
           style: {
             color: "#",
@@ -782,7 +561,6 @@ export {
   greeting,
   socialMediaLinks,
   skillsLeft,
-  skillsRight,
   competitiveSites,
   degrees,
   certifications,

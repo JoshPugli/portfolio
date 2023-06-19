@@ -1,0 +1,38 @@
+.content-container {
+  padding: 5vw;
+  text-align: center;
+  /* additional styles as needed */
+}
+
+.card-header {
+  font-size: 70px;
+  line-height: 1.1;
+  font-family: "Google Sans Bold";
+}
+
+.card-subheader {
+  font-size: 40px;
+  line-height: 40px;
+  margin-right: 40px;
+  font-family: "Google Sans Medium";
+  margin: 65px;
+  /* additional styles as needed */
+}
+
+.card-text {
+  margin-bottom: 25px;
+  color: rgb(127, 141, 170);
+  text-align: left;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Google Sans Medium";
+  /* additional styles as needed */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  /* additional styles as needed */
+}

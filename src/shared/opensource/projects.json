@@ -2,22 +2,22 @@
   "data": [
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "wip": true,
+      "type": "academic",
       "name": "Academic Aptitude Evaluator",
       "createdAt": "March 2023",
       "description": "Machine learning model to predict student ability levels within a personalized education platform.",
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
+          "name": "Python",
           "iconifyClass": "devicon:python"
         },
         {
-          "name": "CSS",
+          "name": "PyTorch",
           "iconifyClass": "logos:pytorch"
         },
         {
-          "name": "JavaScript",
+          "name": "LaTeX",
           "iconifyClass": "simple-icons:latex"
         }
       ]
@@ -35,19 +35,19 @@
           "iconifyClass": "logos-html-5"
         },
         {
-          "name": "CSS",
+          "name": "SCSS",
           "iconifyClass": "vscode-icons:file-type-scss"
         },
         {
-          "name": "CSS",
+          "name": "Django REST Framework",
           "iconifyClass": "devicon:djangorest"
         },
         {
-          "name": "Shell",
+          "name": "PostgreSQL",
           "iconifyClass": "logos:postgresql"
         },
         {
-          "name": "JavaScript",
+          "name": "ReactJS",
           "iconifyClass": "logos:react"
         },
         {
@@ -73,15 +73,15 @@
           "iconifyClass": "logos-css-3"
         },
         {
-          "name": "CSS",
+          "name": "Django REST Framework",
           "iconifyClass": "devicon:djangorest"
         },
         {
-          "name": "Shell",
+          "name": "MongoDB",
           "iconifyClass": "devicon:mongodb-wordmark"
         },
         {
-          "name": "JavaScript",
+          "name": "ReactJS",
           "iconifyClass": "logos:react"
         },
         {
@@ -99,15 +99,15 @@
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
+          "name": "Java",
           "iconifyClass": "logos:java"
         },
         {
-          "name": "Python",
+          "name": "Firebase",
           "iconifyClass": "vscode-icons:file-type-firebase"
         },
         {
-          "name": "JavaScript",
+          "name": "Android Studio",
           "iconifyClass": "devicon:androidstudio"
         }
       ]
@@ -135,11 +135,11 @@
       "isFork": false,
       "languages": [
         {
-          "name": "JavaScript",
+          "name": "C",
           "iconifyClass": "devicon:c"
         },
         {
-          "name": "JavaScript",
+          "name": "Linux",
           "iconifyClass": "devicon:linux"
         }
       ]
@@ -153,15 +153,15 @@
       "isFork": false,
       "languages": [
         {
-          "name": "JavaScript",
+          "name": "C",
           "iconifyClass": "devicon:c"
         },
         {
-          "name": "JavaScript",
+          "name": "Linux",
           "iconifyClass": "devicon:linux"
         },
         {
-          "name": "JavaScript",
+          "name": "FUSE",
           "iconifyClass": "mdi:file"
         }
       ]
@@ -175,7 +175,7 @@
       "isFork": false,
       "languages": [
         {
-          "name": "JavaScript",
+          "name": "Python",
           "iconifyClass": "logos-python"
         }
       ]
@@ -197,11 +197,11 @@
           "iconifyClass": "logos-css-3"
         },
         {
-          "name": "Shell",
+          "name": "AWS",
           "iconifyClass": "logos:aws"
         },
         {
-          "name": "JavaScript",
+          "name": "ReactJS",
           "iconifyClass": "logos:react"
         },
         {

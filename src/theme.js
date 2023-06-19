@@ -75,7 +75,7 @@ export const redTheme = {
 };
 
 export const blackTheme = {
-  body: "#E5E5E5",
+  body: "#ffffff",
   text: "#14213d",
   expTxtColor: "#000a12",
   highlight: "#ffffff",

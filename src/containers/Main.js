@@ -7,6 +7,7 @@ import Experience from "../pages/experience/Experience";
 import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
+import Aptitude from "../pages/projectCards/Aptitude";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
 
@@ -63,6 +64,12 @@ export default class Main extends Component {
                 path="/projects"
                 render={(props) => (
                   <Projects {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/aptitude"
+                render={(props) => (
+                  <Aptitude {...props} theme={this.props.theme} />
                 )}
               />
               <Route
@@ -127,6 +134,12 @@ export default class Main extends Component {
                 path="/projects"
                 render={(props) => (
                   <Projects {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/aptitude"
+                render={(props) => (
+                  <Aptitude {...props} theme={this.props.theme} />
                 )}
               />
             </Switch>

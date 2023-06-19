@@ -5,6 +5,8 @@ import { Fade } from "react-reveal";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Education } from "../../pages/education/EducationComponent";
 import { Experience } from "../../pages/experience/Experience";
+import { Opensource } from "../../pages/opensource/Opensource";
+import { Aptitude } from "../../pages/projectCards/Aptitude";
 import { useHistory } from "react-router-dom";
 
 export default function GithubRepoCard({ repo, theme }) {
@@ -15,6 +17,8 @@ export default function GithubRepoCard({ repo, theme }) {
       history.push("/education");
     } else if (repo.type === "experience") {
       history.push("/experience");
+    } else if (repo.type === "academic") {
+      history.push("/aptitude");
     }
   }
 
