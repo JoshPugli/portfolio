@@ -59,7 +59,7 @@
     {
       "id": "R_kgDOG0_8uQ",
       "name": "Audio Space Accumulator",
-      "wip": true,
+      "type": "audio",
       "createdAt": "December 2022",
       "description": "Created an application that allows users to filter through live audio events across multiple streaming platforms for Thought Leadership Branding Club.",
       "isFork": false,
