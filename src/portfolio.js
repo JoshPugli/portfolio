@@ -89,6 +89,14 @@ const skillsLeft = {
           },
         },
         {
+          skillName: "Keras",
+          fontAwesomeClassname: "devicon:keras",
+        },
+        {
+          skillName: "TensorFlow",
+          fontAwesomeClassname: "logos:tensorflow",
+        },
+        {
           skillName: "Pandas",
           fontAwesomeClassname: "devicon:pandas-wordmark",
           style: {

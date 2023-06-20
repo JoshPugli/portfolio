@@ -14,7 +14,7 @@ class IncOne extends Component {
         <Header theme={this.props.theme} />
         <div className="content-container">
           <div className="card-header" style={{ marginBottom: "60px" }}>
-            Team Benchmark Application
+            Social Audio Aggregator
           </div>
           <div className="card-text">
             As a member of a small team, I had the opportunity to work on a

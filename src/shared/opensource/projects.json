@@ -91,11 +91,33 @@
       ]
     },
     {
+      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
+      "name": "ML Stock Price Prediction Model",
+      "wip": true,
+      "createdAt": "June 2023",
+      "description": "Used Python and Keras to create a sequential RNN model to predict closing stock prices for 31 of the largest SNP 500 companies.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "devicon:python"
+        },
+        {
+          "name": "Keras",
+          "iconifyClass": "devicon:keras"
+        },
+        {
+          "name": "TensorFlow",
+          "iconifyClass": "logos:tensorflow"
+        }
+      ]
+    },
+    {
       "id": "R_kgDOG_vYHA",
       "name": "Brawlr",
       "wip": true,
       "createdAt": "December 2021",
-      "description": "Full stack mobile Android application to connect martial artists with sparring partners.",
+      "description": "Full stack real-time mobile Android application to connect martial artists with sparring partners.",
       "isFork": false,
       "languages": [
         {
