@@ -25,6 +25,9 @@ export default function GithubRepoCard({ repo, theme }) {
       history.push("/incone");
     } else if (repo.type === "audio") {
       history.push("/audio");
+    } else if (repo.url) {
+      var win = window.open(repo.url, "_blank");
+      win.focus();
     }
   }
 

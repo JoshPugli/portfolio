@@ -180,6 +180,10 @@ const skillsLeft = {
             color: "#CB3837",
           },
         },
+        {
+          skillName: "Digital Ocean",
+          fontAwesomeClassname: "devicon:digitalocean",
+        },
       ],
     },
     {

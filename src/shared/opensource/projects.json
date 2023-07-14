@@ -93,7 +93,7 @@
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
       "name": "ML Stock Price Prediction Model",
-      "wip": true,
+      "url": "https://github.com/JoshPugli/ml-stock-prediction",
       "createdAt": "June 2023",
       "description": "Used Python and Keras to create a sequential RNN model to predict closing stock prices for 31 of the largest SNP 500 companies.",
       "isFork": false,
@@ -109,6 +109,28 @@
         {
           "name": "TensorFlow",
           "iconifyClass": "logos:tensorflow"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG_vYHA",
+      "name": "Course Registration Website",
+      "url": "https://github.com/JoshPugli/DemoSof",
+      "createdAt": "December 2021",
+      "description": "Registration site for The Evolution of Systemic Racism course offered by Ben Kempinen and Leanne Puglielli. Created with Django and React, and hosted on Digital Ocean.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Django",
+          "iconifyClass": "akar-icons:django-fill"
+        },
+        {
+          "name": "ReactJS",
+          "iconifyClass": "logos:react"
+        },
+        {
+          "name": "DigitalOcean",
+          "iconifyClass": "devicon:digitalocean"
         }
       ]
     },
