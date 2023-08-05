@@ -145,6 +145,10 @@ const skillsLeft = {
           },
         },
         {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "devicon:typescript",
+        },
+        {
           skillName: "Django",
           fontAwesomeClassname: "vscode-icons:file-type-django",
         },

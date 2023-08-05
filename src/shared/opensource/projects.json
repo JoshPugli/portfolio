@@ -53,6 +53,10 @@
         {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "TypeScript",
+          "iconifyClass": "devicon:typescript"
         }
       ]
     },
