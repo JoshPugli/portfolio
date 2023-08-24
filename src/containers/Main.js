@@ -10,6 +10,7 @@ import Projects from "../pages/projects/Projects";
 import Aptitude from "../pages/projectCards/Aptitude";
 import IncOne from "../pages/projectCards/IncOne";
 import Audio from "../pages/projectCards/Audio";
+import Kmeans from "../pages/projectCards/Kmeans";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
 
@@ -87,6 +88,12 @@ export default class Main extends Component {
                 )}
               />
               <Route
+                path="/kmeans"
+                render={(props) => (
+                  <Kmeans {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
                 path="*"
                 render={(props) => (
                   <Error404 {...props} theme={this.props.theme} />
@@ -160,6 +167,12 @@ export default class Main extends Component {
                 path="/audio"
                 render={(props) => (
                   <Audio {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/kmeans"
+                render={(props) => (
+                  <Kmeans {...props} theme={this.props.theme} />
                 )}
               />
               <Route

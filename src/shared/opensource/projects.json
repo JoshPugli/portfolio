@@ -117,30 +117,8 @@
       ]
     },
     {
-      "id": "R_kgDOG_vYHA",
-      "name": "Course Registration Website",
-      "url": "https://github.com/JoshPugli/DemoSof",
-      "createdAt": "December 2021",
-      "description": "Registration site for The Evolution of Systemic Racism course offered by Ben Kempinen and Leanne Puglielli. Created with Django and React, and hosted on Digital Ocean.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Django",
-          "iconifyClass": "akar-icons:django-fill"
-        },
-        {
-          "name": "ReactJS",
-          "iconifyClass": "logos:react"
-        },
-        {
-          "name": "DigitalOcean",
-          "iconifyClass": "devicon:digitalocean"
-        }
-      ]
-    },
-    {
       "name": "K-means Palette Optimizer",
-      "wip": true,
+      "type": "kmeans",
       "createdAt": "August 2023",
       "description": "Utilized K-means clustering to optimize and reduce the number of colors in digital art palettes without sacrificing visual quality, enabling more resource-efficient art creation.",
       "isFork": false,
@@ -160,6 +138,28 @@
         {
           "name": "Pandas",
           "iconifyClass": "logos:pandas"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG_vYHA",
+      "name": "Course Registration Website",
+      "url": "https://github.com/JoshPugli/DemoSof",
+      "createdAt": "December 2021",
+      "description": "Registration site for The Evolution of Systemic Racism course offered by Ben Kempinen and Leanne Puglielli. Created with Django and React, and hosted on Digital Ocean.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Django",
+          "iconifyClass": "akar-icons:django-fill"
+        },
+        {
+          "name": "ReactJS",
+          "iconifyClass": "logos:react"
+        },
+        {
+          "name": "DigitalOcean",
+          "iconifyClass": "devicon:digitalocean"
         }
       ]
     },
