@@ -97,6 +97,10 @@ const skillsLeft = {
           fontAwesomeClassname: "logos:tensorflow",
         },
         {
+          skillName: "Scikit-Learn",
+          fontAwesomeClassname: "devicon:scikitlearn",
+        },
+        {
           skillName: "Pandas",
           fontAwesomeClassname: "devicon:pandas-wordmark",
           style: {
@@ -384,9 +388,9 @@ const degrees = {
       alt_name: "IIITDM Kurnool",
       duration: "2020 - 2024",
       descriptions: [
-        "• GPA 3.72/4.00.",
+        "• GPA 3.74/4.00.",
         "• Classes of note include Operating Systems, Data Structures and Analysis, Advanced Linear Algebra, Software Design, Web Programming, Software Engineering, Machine Learning, and Artificial Intelligence, among others.",
-        "• Awards include Dean's List Scholar x2, Innis College Exceptional Achievement Award (2x)",
+        "• Awards include Dean's List Scholar (3x), Innis College Exceptional Achievement Award (3x)",
       ],
     },
     {
@@ -397,7 +401,8 @@ const degrees = {
       duration: "2019 - 2020",
       descriptions: [
         "• GPA 4.00/4.00.",
-        "• Took class in advanced calculus, led study group of 20 college students.",
+        "• Took class in advanced calculus",
+        "• Led study group of 20 college students.",
       ],
     },
   ],
@@ -423,11 +428,11 @@ const experience = {
   title: "Experience",
   subtitle: "Internship, Freelance and Partnership",
   description:
-    "I have worked with a few evolving startups as a full stack developer, as well as with an established company as a Data Engineer. My work is currently being used in commercial settings, and I take pride in my ability to deliver high quality code in a timely manner.",
+    "As an experienced Full Stack Developer and Data Engineer, I've contributed to a wide array of projects that span both emerging startups and established corporations. My code is actively deployed in commercial applications, attesting to its reliability and high quality. Beyond formal roles, I've also engaged in project-based collaborations with startups in the Robotics and Consulting sectors, where I've applied my skills in application development and AI.",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Internship",
+      title: "Internships",
       work: true,
       experiences: [
         {
@@ -460,8 +465,18 @@ const experience = {
       ],
     },
     {
-      title: "Partnership",
+      title: "Partnerships",
       experiences: [
+        {
+          title: "ML Project Engineer",
+          company: "Acrylic Robotics",
+          company_url: "https://acrylicrobotics.ca/",
+          logo_path: "acrylic.jpeg",
+          duration: "August 2023 - August 2023",
+          location: "Montreal, Canada",
+          description:
+            "Collaborated with Acrylic Robotics on an innovative art creation project, applying machine learning and algorithmic optimization techniques. Implemented a K-means clustering algorithm to condense the color palette required for art production, achieving visual fidelity with fewer resources. Developed a brush stroke optimization program leveraging A* and greedy approximation algorithms, which minimized color switches and reduced overall painting time by an estimated 90% or more. (More on these projects on projects page!)",
+        },
         {
           title: "Student Partner",
           company: "Throught Leadership Branding Club",
@@ -470,7 +485,7 @@ const experience = {
           duration: "September 2022 - December 2022",
           location: "Toronto, Canada",
           description:
-            "Created an MVP that would allow users to easily access and evaluate audio events from various social audio platforms. In order to achieve this, we utilized React, MongoDB, and Django to develop a system that would collect audio events and present them to the user in a organized manner, enabling them to make informed decisions about which events to attend.",
+            "Created an MVP that would allow users to easily access and evaluate audio events from various social audio platforms. In order to achieve this, we utilized React, MongoDB, and Django to develop a system that would collect audio events and present them to the user in a organized manner, enabling them to make informed decisions about which events to attend (More on the project on projects page!).",
           color: "#4285F4",
         },
       ],

@@ -139,6 +139,52 @@
       ]
     },
     {
+      "name": "K-means Palette Optimizer",
+      "wip": true,
+      "createdAt": "August 2023",
+      "description": "Utilized K-means clustering to optimize and reduce the number of colors in digital art palettes without sacrificing visual quality, enabling more resource-efficient art creation.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "devicon:python"
+        },
+        {
+          "name": "Scikit-Learn",
+          "iconifyClass": "devicon:scikitlearn"
+        },
+        {
+          "name": "NumPy",
+          "iconifyClass": "logos:numpy"
+        },
+        {
+          "name": "Pandas",
+          "iconifyClass": "logos:pandas"
+        }
+      ]
+    },
+    {
+      "name": "Brush Path Optimizer",
+      "wip": true,
+      "createdAt": "August 2023",
+      "description": "Developed a brush stroke optimization program using A* and greedy approximation algorithms to minimize color switches, resulting in an estimated time reduction of over 90% for the painting process.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "devicon:python"
+        },
+        {
+          "name": "NumPy",
+          "iconifyClass": "logos:numpy"
+        },
+        {
+          "name": "Pandas",
+          "iconifyClass": "logos:pandas"
+        }
+      ]
+    },
+    {
       "id": "R_kgDOG_vYHA",
       "name": "Brawlr",
       "wip": true,
