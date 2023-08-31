@@ -23,7 +23,7 @@ const greeting = {
   subTitle:
     "I'm a software engineer based in Toronto, ON with a passion for developing innovative applications and learning new technologies.",
   resumeLink:
-    "https://drive.google.com/file/d/1KPHHgG4UelMBOYp1byg4fGTLMklLtjSG/view?usp=sharing",
+    "https://drive.google.com/file/d/1YFaCp6wJlVuunr0JIIZLq2oeU4SVcvG4/view?usp=drive_link",
 };
 
 const socialMediaLinks = [
