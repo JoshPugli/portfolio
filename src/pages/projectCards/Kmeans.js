@@ -3,8 +3,8 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import "./General.css";
-import orig from "../../assests/images/colors_orig.jpeg";
-import reduced from "../../assests/images/colors_reduced.jpeg";
+import orig from "../../assests/images/colors_orig.jpg";
+import reduced from "../../assests/images/colors_reduced.jpg";
 
 class Kmeans extends Component {
   render() {
