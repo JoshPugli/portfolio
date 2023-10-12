@@ -185,24 +185,36 @@
       ]
     },
     {
-      "id": "R_kgDOG_vYHA",
-      "name": "Brawlr",
+      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1ME=",
+      "name": "Full Stack Gym Membership Prototype",
       "wip": true,
-      "createdAt": "December 2021",
-      "description": "Full stack real-time mobile Android application to connect martial artists with sparring partners.",
+      "createdAt": "March 2022",
+      "description": "Dynamic gym management platform built with React and Django, empowering users and administrators with advanced features",
       "isFork": false,
       "languages": [
         {
-          "name": "Java",
-          "iconifyClass": "logos:java"
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
         },
         {
-          "name": "Firebase",
-          "iconifyClass": "vscode-icons:file-type-firebase"
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
         },
         {
-          "name": "Android Studio",
-          "iconifyClass": "devicon:androidstudio"
+          "name": "Django REST Framework",
+          "iconifyClass": "devicon:djangorest"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "devicon:mongodb-wordmark"
+        },
+        {
+          "name": "ReactJS",
+          "iconifyClass": "logos:react"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
         }
       ]
     },
@@ -271,6 +283,28 @@
         {
           "name": "Python",
           "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG_vYHA",
+      "name": "Brawlr",
+      "wip": true,
+      "createdAt": "December 2021",
+      "description": "Full stack real-time mobile Android application to connect martial artists with sparring partners.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Java",
+          "iconifyClass": "logos:java"
+        },
+        {
+          "name": "Firebase",
+          "iconifyClass": "vscode-icons:file-type-firebase"
+        },
+        {
+          "name": "Android Studio",
+          "iconifyClass": "devicon:androidstudio"
         }
       ]
     },
