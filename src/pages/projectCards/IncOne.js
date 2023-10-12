@@ -34,14 +34,16 @@ class IncOne extends Component {
             translate their in-person activities to a virtual setting.
           </div>
           <div className="card-text">
-            Me and a team of 4 other engineers are developing a tool called the
-            Team Benchmarking Application that helps assess the maturity of a
-            team in regards to team formation, behavior, sprint behavior, and
-            shippable product increments. This application is built with Django
-            REST Framework and React, and backed by PostgreSQL. Since the
-            application is client faceing, it must be user-friendly and secure,
-            including adding a full login system. It also has to be scalable, as
-            we need it to be able to handle a large number of users (30,000+).
+            I am currently the lead frontend and backend developer on a team
+            with three other engineers to overhaul the Team Benchmarking
+            Application, a tool designed to evaluate team maturity across
+            parameters like formation, behavior, sprint activities, and delivery
+            of product increments. Our build leverages the Django REST Framework
+            and React, backed by a PostgreSQL database. Given its client-facing
+            nature, the application prioritizes user-friendliness and robust
+            security, evident in its comprehensive login system. Further
+            emphasizing scalability, our design can comfortably accommodate an
+            expansive user base, with projections exceeding 30,000 users.
           </div>
           <div className="card-text">
             This tool will help IncrementOne improve discovery and benchmarking
