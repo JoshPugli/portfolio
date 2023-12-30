@@ -10,7 +10,7 @@ class DegreeCard extends Component {
     return (
       <div className="degree-card">
         {degree.logo_path && (
-          <Flip left duration={2000}>
+          <Fade bottom duration={1000} distance="40px">
             <div className="card-img">
               <img
                 style={{
@@ -22,7 +22,7 @@ class DegreeCard extends Component {
                 alt={degree.alt_name}
               />
             </div>
-          </Flip>
+          </Fade>
         )}
         <Fade right duration={2000} distance="40px">
           <div

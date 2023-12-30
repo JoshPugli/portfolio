@@ -34,7 +34,14 @@ export default function GithubRepoCard({ repo, theme }) {
   }
 
   return (
-    <div className="repo-card-div" style={{ backgroundColor: theme.highlight }}>
+    <div
+      className="repo-card-div"
+      style={{
+        backgroundColor: "#fff",
+        borderRadius: "10px",
+        border: "2px solid #d9dbdf",
+      }}
+    >
       <Fade bottom duration={2000} distance="40px">
         <div key={repo.id} onClick={() => nav()}>
           <div className="repo-name-div">

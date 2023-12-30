@@ -5,8 +5,19 @@ import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
+import Lottie from "react-lottie";
+import animationData from "../../assests/animations/developer.json";
 
 export default function Greeting(props) {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
   const theme = props.theme;
   return (
     <Fade bottom duration={2000} distance="40px">
@@ -44,7 +55,12 @@ export default function Greeting(props) {
 							alt="saad sitting on table"
 							src={require("../../assests/images/feelingProud.svg")}
 						></img> */}
-            <FeelingProud theme={theme} />
+            <Lottie
+              options={defaultOptions}
+              height={600}
+              width={750}
+              speed={0.25}
+            />
           </div>
         </div>
       </div>

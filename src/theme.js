@@ -5,7 +5,7 @@ import { FaDrumstickBite, FaJava } from "react-icons/fa";
 
 // theme.js
 export const blueTheme = {
-  body: "#EDF9FE",
+  body: "#fff",
   text: "#001C55",
   expTxtColor: "#000a12",
   highlight: "#A6E1FA",
@@ -89,7 +89,7 @@ export const blackTheme = {
 };
 
 export const pinkTheme = {
-  body: "#FEE9F2",
+  body: "#ffffff",
   text: "#620E34",
   expTxtColor: "#000a12",
   highlight: "#FBA7CD",
@@ -197,7 +197,7 @@ export const materialTealTheme = {
   compImgHighlight: "#E1E2E1",
   jacketColor: "#E1E2E1",
   headerColor: "#E1E2E1",
-  splashBg: "#05505E",
+  splashBg: "#ffffff",
 };
 
-export const chosenTheme = blackTheme;
+export const chosenTheme = blueTheme;

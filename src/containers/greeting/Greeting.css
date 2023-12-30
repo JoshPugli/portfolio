@@ -53,6 +53,7 @@
 .greeting-image-div > * {
   max-width: 100%;
   height: auto;
+  margin-left: 0;
 }
 
 /* Media Query */
@@ -91,5 +92,9 @@
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+
+  .greeting-image-div {
+    display: none;
   }
 }

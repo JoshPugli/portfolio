@@ -15,10 +15,22 @@ import {
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
+import Lottie from "react-lottie";
+import animationData from "../../assests/animations/projects.json";
 
 class Projects extends Component {
   render() {
     const theme = this.props.theme;
+
+    const defaultOptions = {
+      loop: true,
+      autoplay: true,
+      animationData: animationData,
+      rendererSettings: {
+        preserveAspectRatio: "xMidYMid slice",
+      },
+    };
+
     return (
       <div className="projects-main">
         <Header theme={theme} />
@@ -30,7 +42,12 @@ class Projects extends Component {
 											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
 											alt=""
 										/> */}
-                <ProjectsImg theme={theme} />
+                <Lottie
+                  options={defaultOptions}
+                  height={400}
+                  width={600}
+                  speed={0.25}
+                />
               </div>
               <div className="projects-heading-text-div">
                 <h1

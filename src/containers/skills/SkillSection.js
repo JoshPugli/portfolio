@@ -24,17 +24,17 @@ class SkillSection extends Component {
     return (
       <div>
         <div className="skills-main-div">
-          <Fade left duration={2000}>
+          <Fade duration={2000}>
             <div className="skills-image-div">
-              <Fade right duration={1000}>
+              <Fade bottom duration={1000} distance="40px">
                 <h1 className="skills-heading" style={{ color: theme.text }}>
                   AI & Data Science
                 </h1>
               </Fade>
-              <Fade right duration={1500}>
+              <Fade bottom duration={1500}>
                 <SoftwareSkill logos={skillsLeft.data[0].softwareSkills} />
               </Fade>
-              <Fade right duration={2000}>
+              <Fade bottom duration={2000}>
                 <div>
                   {skillsLeft.data[0].skills.map((skillSentence) => {
                     return (
@@ -48,15 +48,37 @@ class SkillSection extends Component {
                   })}
                 </div>
               </Fade>
-              <Fade right duration={1000}>
+              <Fade bottom duration={1000}>
+                <h1 className="skills-heading" style={{ color: theme.text }}>
+                  Full Stack Development
+                </h1>
+              </Fade>
+              <Fade bottom duration={1500}>
+                <SoftwareSkill logos={skillsLeft.data[1].softwareSkills} />
+              </Fade>
+              <Fade bottom duration={2000}>
+                <div>
+                  {skillsLeft.data[1].skills.map((skillSentence) => {
+                    return (
+                      <p
+                        className="subTitle skills-text"
+                        style={{ color: theme.secondaryText }}
+                      >
+                        {skillSentence}
+                      </p>
+                    );
+                  })}
+                </div>
+              </Fade>
+              {/* <Fade bottom duration={1000}>
                 <h1 className="skills-heading" style={{ color: theme.text }}>
                   Cloud Infra-Architecture
                 </h1>
               </Fade>
-              <Fade right duration={1500}>
+              <Fade bottom duration={1500}>
                 <SoftwareSkill logos={skillsLeft.data[2].softwareSkills} />
               </Fade>
-              <Fade right duration={2000}>
+              <Fade bottom duration={2000}>
                 <div>
                   {skillsLeft.data[2].skills.map((skillSentence) => {
                     return (
@@ -69,22 +91,22 @@ class SkillSection extends Component {
                     );
                   })}
                 </div>
-              </Fade>
+              </Fade> */}
             </div>
           </Fade>
 
           <div className="skills-text-div">
-            <Fade right duration={1000}>
+            <Fade bottom duration={1000}>
               <h1 className="skills-heading" style={{ color: theme.text }}>
-                Full Stack Development
+                Cloud Infra-Architecture
               </h1>
             </Fade>
-            <Fade right duration={1500}>
-              <SoftwareSkill logos={skillsLeft.data[1].softwareSkills} />
+            <Fade bottom duration={1500}>
+              <SoftwareSkill logos={skillsLeft.data[2].softwareSkills} />
             </Fade>
-            <Fade right duration={2000}>
+            <Fade bottom duration={2000}>
               <div>
-                {skillsLeft.data[1].skills.map((skillSentence) => {
+                {skillsLeft.data[2].skills.map((skillSentence) => {
                   return (
                     <p
                       className="subTitle skills-text"
@@ -96,15 +118,15 @@ class SkillSection extends Component {
                 })}
               </div>
             </Fade>
-            <Fade right duration={1000}>
+            <Fade bottom duration={1000}>
               <h1 className="skills-heading" style={{ color: theme.text }}>
                 OS, Systems Programming & Software Tools
               </h1>
             </Fade>
-            <Fade right duration={1500}>
+            <Fade bottom duration={1500}>
               <SoftwareSkill logos={skillsLeft.data[3].softwareSkills} />
             </Fade>
-            <Fade right duration={2000}>
+            <Fade bottom duration={2000}>
               <div>
                 {skillsLeft.data[3].skills.map((skillSentence) => {
                   return (

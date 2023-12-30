@@ -7,7 +7,7 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Joshua's Portfolio",
+  title: "Portfolio | Joshua Puglielli",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
@@ -54,12 +54,12 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/joshpugli/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
+  // {
+  //   name: "Instagram",
+  //   link: "https://www.instagram.com/joshpugli/",
+  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  // },
 ];
 
 const skillsLeft = {
@@ -106,6 +106,13 @@ const skillsLeft = {
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Numpy",
+          fontAwesomeClassname: "logos:numpy",
+          style: {
+            backgroundColor: "transparent",
           },
         },
       ],
@@ -199,8 +206,8 @@ const skillsLeft = {
       fileName: "CloudInfraImg",
       skills: [
         "• Professionally deployed data pipelines on cloud using AWS Lambda and S3",
+        "• Experience creating highly available, scalable, and secure cloud infrastructure with IAC technologies",
         "• Hosting and maintaining websites and mobile applications on virtual machine instances along with integration of databases",
-        "• Experience wokring within highly available and scalable cloud infrastructure",
       ],
       softwareSkills: [
         {
@@ -210,7 +217,11 @@ const skillsLeft = {
             color: "#FF9900",
           },
         },
-
+        {
+          skillName: "Terraform",
+          fontAwesomeClassname: "devicon:terraform",
+          style: {},
+        },
         {
           skillName: "Firebase",
           fontAwesomeClassname: "simple-icons:firebase",
@@ -250,6 +261,12 @@ const skillsLeft = {
           style: {
             color: "#FF9900",
           },
+        },
+
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "devicon:cplusplus",
+          style: {},
         },
 
         {
@@ -383,13 +400,13 @@ const degrees = {
     {
       title: "University of Toronto",
       subtitle:
-        "Honors Bachelor of Science; Computer Science and Math, specializing in AI",
+        "Honors Bachelor of Science in Computer Science and Mathematics",
       logo_path: "uoft.png",
       alt_name: "IIITDM Kurnool",
       duration: "2020 - 2024",
       descriptions: [
         "• GPA 3.74/4.00.",
-        "• Classes of note include Operating Systems, Data Structures and Analysis, Advanced Linear Algebra, Software Design, Web Programming, Software Engineering, Machine Learning, and Artificial Intelligence, among others.",
+        "• Current Research: As part of a research team led by Professor Joseph Jay Williams, I am leveraging machine learning, HCI principles, and data analysis to optimize online learning. Our project focuses on personalizing student learning experiences by analyzing study habits and behavioral patterns, developing algorithms for tailored educational interventions, and establishing a feedback loop for continuous improvement. ",
         "• Awards include Dean's List Scholar (3x), Innis College Exceptional Achievement Award (3x)",
       ],
     },
@@ -428,7 +445,7 @@ const experience = {
   title: "Experience",
   subtitle: "Internship, Freelance and Partnership",
   description:
-    "As an experienced Full Stack Developer and Data Engineer, I've contributed to a wide array of projects that span both emerging startups and established corporations. My code is actively deployed in commercial applications, attesting to its reliability and high quality. Beyond formal roles, I've also engaged in project-based collaborations with startups in the Robotics and Consulting sectors, where I've applied my skills in application development and AI.",
+    "As an experienced ML Engineer, Full Stack Developer, and Data Engineer, I've contributed to a wide array of projects that span both emerging startups and established corporations. My code is actively deployed in commercial applications. Beyond formal roles, I've also engaged in project-based collaborations with startups in the Robotics and Consulting sectors, where I've applied my skills in application development and AI.",
   header_image_path: "experience.svg",
   sections: [
     {

@@ -32,11 +32,11 @@ class Education extends Component {
                   Education
                 </h1>
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  School and Certification
+                  University and Research
                 </h3>
                 <h3 style={{ color: "darkgrey", marginTop: "50px" }}>
                   I'm a computer science and math student at the University of
-                  Toronto.
+                  Toronto, specializing in Artificial Intelligence and HCI.
                 </h3>
               </div>
             </div>
