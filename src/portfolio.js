@@ -21,7 +21,7 @@ const seo = {
 const greeting = {
   title: "Joshua Puglielli",
   subTitle:
-    "I'm a software engineer based in Toronto, ON with a passion for developing innovative applications and learning new technologies.",
+    "ML, data, and software engineer.\nDriven by a passion for learning.",
   resumeLink:
     "https://drive.google.com/file/d/1Arxwpy9qYyJuBcWSIaMph8Dzzdy2w6sO/view?usp=drive_link",
 };

@@ -18,6 +18,10 @@ export default function Greeting(props) {
     },
   };
 
+  const WavingHand = () => {
+    return <span className="waving-hand">👋</span>;
+  };
+
   const theme = props.theme;
   return (
     <Fade bottom duration={2000} distance="40px">
@@ -26,13 +30,15 @@ export default function Greeting(props) {
           <div className="greeting-text-div">
             <div>
               <h1 className="greeting-text" style={{ color: theme.text }}>
-                Hi, I'm Josh
+                Hi, I'm Josh <WavingHand />
               </h1>
               <p
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {greeting.subTitle}
+                ML, data, and software engineer.
+                <br />
+                Driven by a passion for learning.
               </p>
               <SocialMedia theme={theme} />
               <div className="portfolio-repo-btn-div">
