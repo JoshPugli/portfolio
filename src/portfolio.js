@@ -68,9 +68,9 @@ const skillsLeft = {
       title: "AI & Data Science",
       fileName: "DataScienceImg",
       skills: [
-        "• Delivered commercial data analysis code using Python and Pandas",
-        "• Professional experience with sensitive big data analysis",
-        "• Experience of working with ML Classification, Regression, and NLP projects",
+        "• Demonstrated expertise in ML Classification, Regression, and NLP, coupled with extensive experience in training complex models and integrating Large Language Model (LLM) APIs in a professional production setting.",
+        "• Delivered commercial sensitive big data analysis programs using Python, Numpy, and Pandas",
+        "• Demonstrated deep conceptual knowledge in ML and data analysis, successfully applying these principles to architect and refine sophisticated algorithms and models",
       ],
       softwareSkills: [
         {
@@ -115,13 +115,20 @@ const skillsLeft = {
             backgroundColor: "transparent",
           },
         },
+        {
+          skillName: "spaCy",
+          fontAwesomeClassname: "simple-icons:spacy",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
       ],
     },
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "• Building responsive application front ends using React, HTML5, CSS3, Bootstrap and JavaScript",
+        "• Building responsive application front ends using React, HTML, CSS, Bootstrap, TypeScript & JavaScript",
         "• Developing mobile applications using Java in conjunction with android studio",
         "• Creating application backends using Django and Django Rest Framework",
       ],
@@ -237,6 +244,11 @@ const skillsLeft = {
           },
         },
         {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "devicon:mongodb-wordmark",
+          style: {},
+        },
+        {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
           style: {
@@ -250,8 +262,8 @@ const skillsLeft = {
       fileName: "CloudInfraImg",
       skills: [
         "• Extensive experience with git and version control",
-        "• Cabable of writing shell scripts to automate tasks",
-        "• Worked with projects to create file storage systems, threading libraries, paging algorithms, and HTTP servers in C",
+        "• Deep knowledge of shell scripting and CICD to automate tasks",
+        "• Worked with projects to create file storage systems, threading libraries, paging algorithms, and HTTP servers in C & C++",
         "• Knowlege of both Windows and Linux operating systems and CLI tools",
       ],
       softwareSkills: [
@@ -460,7 +472,7 @@ const experience = {
           duration: "May 2022 - Aug 2022",
           location: "New York, USA",
           description:
-            "Worked with large quantites of sensitive customer data in a production development stream, utilizing AWS, Python, Pandas, and NLP in order to improve surveillance and reporting across several metrics to ensure financial compliance for institutional clients. Additionally worked to streamline and improve efficiency of existing codebase, while greatly expanding testing suite.",
+            "Worked with massive quantites of sensitive customer data in a production development stream, utilizing AWS, Python, Pandas, and NLP in order to improve surveillance and reporting across several metrics to ensure financial compliance for institutional clients. Additionally worked to streamline and improve efficiency of existing codebase, while greatly expanding testing suite.",
           color: "#0879bf",
         },
       ],
@@ -469,14 +481,14 @@ const experience = {
       title: "Freelance",
       experiences: [
         {
-          title: "Software Engineer",
+          title: "ML & Full Stack Engineer",
           company: "IncrementOne",
           company_url: "https://www.incrementone.com/",
           logo_path: "incone.png",
           duration: "January 2023 - Present",
           location: "Vancouver, Canada",
           description:
-            "Member of development team working to create a commercial web application written with React and Django REST framework, suited for +30,000 users and projected to generate $200k in revenue. Worked to develop and implement a REST API, as well as a React frontend, while also working to improve existing codebase and streamline development process.",
+            "As the lead ML & Full Stack Engineer at IncrementOne, I led the development of a full stack agile assessment app, and developed an ML tool suite, improving efficiency by 40-100% for clients like the Royal Bank of Canada and the Government of Canada. My work included pioneering an AI Agile Team Lead Assistant and revamping the Team Benchmark application, supporting over 30,000 users and contributing to an expected annual revenue increase of $200,000.",
           color: "#000000",
         },
       ],
@@ -514,7 +526,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of vast variety of frameworks and languages. I have worked on Machine Learning, Web Development, and Software Development projects. I am always working on something new, so check back often to see what I'm up to!",
+    "My projects make use of vast variety of frameworks, languages, and concepts. I am always working on something new, so check back often to see what I'm up to!",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -616,5 +628,245 @@ export {
   projectsHeader,
   publicationsHeader,
   publications,
+  skills,
   contactPageData,
+};
+
+const skills = {
+  data: [
+    {
+      title: "Data Science & AI",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
+        "⚡ Experience of working with Computer Vision and NLP projects",
+        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Tensorflow",
+          fontAwesomeClassname: "logos-tensorflow",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Keras",
+          fontAwesomeClassname: "simple-icons:keras",
+          style: {
+            backgroundColor: "white",
+            color: "#D00000",
+          },
+        },
+        {
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos-pytorch",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Deeplearning",
+          imageSrc: "deeplearning_ai_logo.png",
+        },
+      ],
+    },
+    {
+      title: "Full Stack Development",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Building responsive website front end using React-Redux",
+        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
+        "⚡ Creating application backend in Node, Express & Flask",
+      ],
+      softwareSkills: [
+        {
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "CSS3",
+          fontAwesomeClassname: "fa-css3",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
+          skillName: "Sass",
+          fontAwesomeClassname: "simple-icons:sass",
+          style: {
+            color: "#CC6699",
+          },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:node-dot-js",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "NPM",
+          fontAwesomeClassname: "simple-icons:npm",
+          style: {
+            color: "#CB3837",
+          },
+        },
+        {
+          skillName: "Yarn",
+          fontAwesomeClassname: "simple-icons:yarn",
+          style: {
+            color: "#2C8EBB",
+          },
+        },
+        {
+          skillName: "Gatsby",
+          fontAwesomeClassname: "simple-icons:gatsby",
+          style: {
+            color: "#663399",
+          },
+        },
+        {
+          skillName: "Flutter",
+          fontAwesomeClassname: "simple-icons:flutter",
+          style: {
+            color: "#02569B",
+          },
+        },
+      ],
+    },
+    {
+      title: "Cloud Infra-Architecture",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ Experience working on multiple cloud platforms",
+        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "⚡ Deploying deep learning models on cloud to use on mobile devices",
+        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+      ],
+      softwareSkills: [
+        {
+          skillName: "GCP",
+          fontAwesomeClassname: "simple-icons:googlecloud",
+          style: {
+            color: "#4285F4",
+          },
+        },
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Azure",
+          fontAwesomeClassname: "simple-icons:microsoftazure",
+          style: {
+            color: "#0089D6",
+          },
+        },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: {
+            color: "#FFCA28",
+          },
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
+          style: {
+            color: "#336791",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#47A248",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Kubernetes",
+          fontAwesomeClassname: "simple-icons:kubernetes",
+          style: {
+            color: "#326CE5",
+          },
+        },
+      ],
+    },
+    {
+      title: "UI/UX Design",
+      fileName: "DesignImg",
+      skills: [
+        "⚡ Designing highly attractive user interface for mobile and web applications",
+        "⚡ Customizing logo designs and building logos from scratch",
+        "⚡ Creating the flow of application functionalities to optimize user experience",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Adobe XD",
+          fontAwesomeClassname: "simple-icons:adobexd",
+          style: {
+            color: "#FF2BC2",
+          },
+        },
+        {
+          skillName: "Figma",
+          fontAwesomeClassname: "simple-icons:figma",
+          style: {
+            color: "#F24E1E",
+          },
+        },
+        {
+          skillName: "Adobe Illustrator",
+          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          style: {
+            color: "#FF7C00",
+          },
+        },
+        {
+          skillName: "Inkscape",
+          fontAwesomeClassname: "simple-icons:inkscape",
+          style: {
+            color: "#000000",
+          },
+        },
+      ],
+    },
+  ],
 };

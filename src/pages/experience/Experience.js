@@ -3,6 +3,7 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
+import ExperienceNew from "../../containers/experienceAccordion/ExperienceNew.js";
 import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
@@ -47,12 +48,12 @@ class Experience extends Component {
                 >
                   {experience.title}
                 </h1>
-                <h3
+                {/* <h3
                   className="experience-heading-sub-text"
                   style={{ color: theme.text }}
                 >
                   {experience["subtitle"]}
-                </h3>
+                </h3> */}
                 <p
                   className="experience-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}

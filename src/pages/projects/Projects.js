@@ -71,9 +71,6 @@ class Projects extends Component {
             return <GithubRepoCard repo={repo} theme={theme} />;
           })}
         </div>
-        <div className="bottom-words">
-          New projects, including ML web automation plugin, coming soon!
-        </div>
 
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
